@@ -7,6 +7,15 @@ This repo contains the inference pipeline for the satellite synthesis models int
 
 Source code and model checkpoint are stored on 🤗HuggingFace, at [Vladimirescu/SatSynthWCA](Vladimirescu/SatSynthWCA).
 
+## Installation
+```bash
+git clone https://github.com/Vladimirescu/EfficientGeometrySatelliteSynthesis.git
+cd EfficientGeometrySatelliteSynthesis
+conda env create -f environment.yml
+conda activate sat-synth
+```
+
+## Inference
 Inference can be simply performed through one of the following two options:
 
 1. Specify the desired `<latitude>` and `<longitude>` of the location you wish to import geometry from:
