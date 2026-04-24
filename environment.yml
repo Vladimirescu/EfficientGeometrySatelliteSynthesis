@@ -6,17 +6,18 @@ dependencies:
   - pip=20.3.3
   - python=3.8.5
   - pip:
+    - rasterio
+    - pytorch-lightning
+    - omegaconf
+    - albumentations
     - sympy==1.13.3
-    - tensorboardX==2.6.5
     - tifffile==2023.7.10
     - timm==0.6.12
     - torch==2.1.0
     - torch_tb_profiler==0.4.3
-    - torchgeo==0.4.1
     - torchmetrics==1.5.2
     - torchvision==0.16.0
     - tqdm==4.67.1
     - transformers==4.46.3
     - turbojpeg==0.0.2
-    - xformers==0.0.35
     - yapf==0.32.0
