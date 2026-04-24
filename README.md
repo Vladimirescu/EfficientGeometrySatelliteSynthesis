@@ -5,7 +5,7 @@ This repo contains the inference pipeline for the satellite synthesis models int
 
 <img src="assets/methods.PNG" alt="Control Methods Comparison" width="100%">
 
-Source code and model checkpoint are stored on 🤗HuggingFace, at [Vladimirescu/SatSynthWCA](Vladimirescu/SatSynthWCA).
+Source code and model checkpoint are stored on 🤗HuggingFace, at [Vladimirescu/SatSynthWCA](https://huggingface.co/Vladimirescu/SatSynthWCA).
 
 ## Installation
 ```bash
