@@ -31,3 +31,17 @@ python infer_HF.py --hf_repo Vladimirescu/SatSynthWCA
                    --prompt "An island surrounded by water, with a forest in the middle and a dirt road going through it."
 ```
 produces the following result:
+<table style="width: 100%;">
+  <tr>
+    <td align="center">
+      <img src="assets/osm_map.png" width="48%" />
+      <br>
+      <sub>OSM control tile</sub>
+    </td>
+    <td align="center">
+      <img src="assets/generated.png" width="48%" />
+      <br>
+      <sub>Synthesized image</sub>
+    </td>
+  </tr>
+</table>
