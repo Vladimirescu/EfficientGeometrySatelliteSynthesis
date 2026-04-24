@@ -3,6 +3,8 @@
 This repo contains the inference pipeline for the satellite synthesis models introduced in 
 > [Efficient Geometry-Controlled High-Resolution Satellite Image Synthesis](), IGARSS 2026
 
+<img src="assets/methods.PNG" alt="Control Methods Comparison" width="100%">
+
 Source code and model checkpoint are stored on 🤗HuggingFace, at [Vladimirescu/SatSynthWCA](Vladimirescu/SatSynthWCA).
 
 Inference can be simply performed through one of the following two options:
