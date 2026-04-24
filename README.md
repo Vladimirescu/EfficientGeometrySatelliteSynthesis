@@ -42,11 +42,11 @@ produces the following result(s):
       <img src="assets/generated.png" width="90%" />
     </td>
    <td align="center" width="25%">
-      <b><code>prompt + "during drought"</code></b>
+      <b><code>prompt + "drought"</code></b>
       <img src="assets/generated_drought.png" width="90%" />
     </td>
    <td align="center" width="25%">
-      <b> <code>prompt + "during hurricane"</code></b>
+      <b> <code>prompt + "hurricane"</code></b>
       <img src="assets/generated_hurricane.png" width="90%" />
     </td>
   </tr>
