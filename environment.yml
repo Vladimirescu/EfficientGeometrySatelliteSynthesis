@@ -1,4 +1,4 @@
-name: geosynth
+name: sat-synth
 channels:
   - defaults
   - pytorch
