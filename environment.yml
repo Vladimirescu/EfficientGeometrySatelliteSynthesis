@@ -1,23 +1,33 @@
 name: sat-synth
 channels:
-  - defaults
   - pytorch
+  - nvidia
+  - defaults
 dependencies:
-  - pip=20.3.3
-  - python=3.8.5
+  - python=3.10
+  - pip
+  - setuptools<70.0.0
+  - numpy<2.0.0
   - pip:
+    - --index-url https://pypi.org/simple
+    - --extra-index-url https://download.pytorch.org/whl/cu118
+    - torch==2.1.0
+    - torchvision==0.16.0
+    - pytorch-lightning==1.9.5
+    - torchmetrics==1.0.3
+    - torchgeo==0.6.0
     - rasterio
-    - pytorch-lightning
+    - torch_tb_profiler==0.4.3
     - omegaconf
     - albumentations
     - sympy==1.13.3
     - tifffile==2023.7.10
     - timm==0.6.12
-    - torch==2.1.0
-    - torch_tb_profiler==0.4.3
-    - torchmetrics==1.5.2
-    - torchvision==0.16.0
-    - tqdm==4.67.1
     - transformers==4.46.3
     - turbojpeg==0.0.2
+    - tqdm==4.67.1
     - yapf==0.32.0
+    - wandb
+    - einops
+    - huggingface_hub
+    - open_clip_torch
