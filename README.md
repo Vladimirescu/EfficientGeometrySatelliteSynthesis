@@ -1,7 +1,7 @@
 # Efficient Geometry-Controlled High-Resolution Satellite Image Synthesis
 
 This repo contains the inference pipeline for the satellite synthesis models introduced in 
-> [Efficient Geometry-Controlled High-Resolution Satellite Image Synthesis](), IGARSS 2026
+> [Efficient Geometry-Controlled High-Resolution Satellite Image Synthesis](https://arxiv.org/abs/2605.04557), IGARSS 2026
 
 <img src="assets/methods.PNG" alt="Control Methods Comparison" width="100%">
 
